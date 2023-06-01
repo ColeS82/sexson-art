@@ -1,0 +1,14 @@
+main{
+/* background-image: url(../../images/headerPic.jpg); */
+background-color: rgb(242, 243, 245);
+min-height: 100vh;
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+overflow: hidden;
+/* padding-top: 100px; */
+background-attachment: fixed;
+
+}
+
+
+

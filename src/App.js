@@ -1,10 +1,20 @@
-import Materialize from 'materialize-css'
+import { BrowserRouter, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './components/Home/Home'
+import Home from './components/Home/Home';
+import Navbar from './components/Navbar/Navbar';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+
 
 function App() {
   return (
-    <Home />
+    <BrowserRouter>
+    <Routes>
+      <Navbar />
+      <Home />
+
+    </Routes>
+      </BrowserRouter>
   );
 }
 
