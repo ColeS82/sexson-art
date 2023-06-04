@@ -1,14 +1,31 @@
 main{
-/* background-image: url(../../images/headerPic.jpg); */
-background-color: rgb(242, 243, 245);
 min-height: 100vh;
-/* background-repeat: no-repeat; */
-/* background-size: cover; */
+background-repeat: no-repeat;
+background-size: auto;
 overflow: hidden;
-/* padding-top: 100px; */
 background-attachment: fixed;
+background-position: right;
 
 }
+
+#intro-bg {
+    background-color: rgba(121, 90, 56, 0.35);
+    /* background-image: url(../../images/sexson-art-bg.png); */
+    min-height: 100vh;
+    background-size: contain;
+    
+}
+
+#sexsonart{
+    max-width: 95%;
+    margin: auto;
+}
+
+/* 
+#container{
+    margin: 0 200px;
+    background-color: rgb(255, 240, 240);
+} */
 
 
 

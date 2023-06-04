@@ -1,15 +1,13 @@
 import Navbar from '../Navbar/Navbar';
 import './Home.css';
-import spic1 from '../../images/spic1.jpg';
-import spic2 from '../../images/spic2.jpg';
-import spic3 from '../../images/spic3.jpg';
-import spic5 from '../../images/spic5.jpg';
-// import MyCarousel from './MyCarousel';
+
+import sexsonart from '../../images/sexson-art-bg.png'
+
+
 
 export default function Home() {
     return (
         <main className=''>
-           
             <div id='container' className='pt-5'>
                 <h1 id='title' className=' text-center mt-5'>
                     Sara Sexson Art
@@ -17,30 +15,23 @@ export default function Home() {
 
                 <h3 id='intro' className=' text-center'>
                     Hello!!
+                <hr></hr>
                 </h3>
 
-                <hr></hr>
             </div>
 
-            <div className=' row mt-sm-5 px-2'>
-                <div className='d-flex col-sm my-4'>
-                    <img src={spic1} alt='spic1' className='rounded mx-auto d-block align-self-center' style={{ width: "70%" }} />
+            <div className="">
+                
+                <div id='intro-bg' className="d-flex">
+                    <img 
+                    className=''
+                    id='sexsonart' src={sexsonart} alt="Sara Sexson Art"/>
+                    
                 </div>
-
-                <div className='d-flex col-sm my-4'>
-                    <img src={spic2} alt='spic1' className='rounded mx-auto  d-block align-self-center' style={{ width: "100%" }} />
-                </div>
-
-                <div className='col-sm d-flex my-4'>
-                    <img src={spic3} alt='spic1' className='rounded mx-auto d-block align-self-center' style={{ width: "70%" }} />
-                </div>
-
-                <div className='col-sm d-flex my-4'>
-                    <img src={spic5} alt='spic1' className='rounded mx-auto d-block align-self-center' style={{ width: "70%" }} />
-                </div>
-
-
             </div>
+
+
+
         </main>
     )
 }
