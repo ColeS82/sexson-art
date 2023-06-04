@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sexson-art/static/css/main.018df48f.css",
+    "main.js": "/sexson-art/static/js/main.906d31de.js",
+    "static/media/sexson-art-bg.png": "/sexson-art/static/media/sexson-art-bg.c2aa41895c9a5bfcb9d5.png",
+    "static/media/spic3.jpg": "/sexson-art/static/media/spic3.e634e5e307673422f465.jpg",
+    "static/media/spic1.jpg": "/sexson-art/static/media/spic1.4a0e45bc6e816ac70fb3.jpg",
+    "static/media/spic2.jpg": "/sexson-art/static/media/spic2.6d7c5ef9a175f94e3776.jpg",
+    "static/media/spic5.jpg": "/sexson-art/static/media/spic5.65700099514d43d0aa6e.jpg",
+    "index.html": "/sexson-art/index.html",
+    "main.018df48f.css.map": "/sexson-art/static/css/main.018df48f.css.map",
+    "main.906d31de.js.map": "/sexson-art/static/js/main.906d31de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.018df48f.css",
+    "static/js/main.906d31de.js"
+  ]
+}
