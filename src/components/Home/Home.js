@@ -2,6 +2,7 @@ import Navbar from '../Navbar/Navbar';
 import './Home.css';
 
 import sexsonart from '../../images/sexson-art-bg.png'
+import smallIntro from '../../images/spic6.jpg'
 
 
 
@@ -13,25 +14,18 @@ export default function Home() {
                     Sara Sexson Art
                 </h1>
 
-                <h3 id='intro' className=' text-center'>
-                    Hello!!
                 <hr></hr>
-                </h3>
-
             </div>
 
-            <div className="">
-                
-                <div id='intro-bg' className="d-flex">
-                    <img 
+            <div id='intro-container' className="">
+                <img
                     className=''
-                    id='sexsonart' src={sexsonart} alt="Sara Sexson Art"/>
-                    
-                </div>
+                    id='sexsonart' src={sexsonart} alt="Sara Sexson Art" />
             </div>
 
-
-
+            <div id='intro-container-small' className=''>
+                <img id='small-intro' src={smallIntro} alt="Sara Sexson Art" />
+            </div>
         </main>
     )
 }

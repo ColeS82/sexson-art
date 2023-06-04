@@ -7,10 +7,10 @@ export default function MyWorks() {
 
     return (
         <div className='bg-light'>
-            <div id='container' className='pt-5 mt-5'>
-
-                <hr></hr>
+            <div id='container' className='pt-5'>
+                <h1 id='title' className=' text-center mt-5'>My Works</h1>
             </div>
+                <hr></hr>
 
             <div className=' row mt-sm-5 px-2'>
                 <div className='d-flex col-sm my-4'>

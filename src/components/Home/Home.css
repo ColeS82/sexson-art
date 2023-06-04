@@ -8,24 +8,36 @@ background-position: right;
 
 }
 
-#intro-bg {
+#intro-container {
     background-color: rgba(121, 90, 56, 0.35);
     /* background-image: url(../../images/sexson-art-bg.png); */
     min-height: 100vh;
-    background-size: contain;
+    
     
 }
 
 #sexsonart{
+    display: block;
     max-width: 95%;
     margin: auto;
 }
 
-/* 
-#container{
-    margin: 0 200px;
-    background-color: rgb(255, 240, 240);
-} */
+#intro-container-small {
+    display: none;
+    min-height: 100vh;
+}
 
+#small-intro {
+    display: block;
+    max-width: 95%;
+    margin: auto;
+}
 
-
+@media  screen and (max-width: 500px) {
+    #intro-container {
+        display: none;
+    }
+    #intro-container-small {
+        display: block;
+    }
+}
