@@ -2,19 +2,32 @@ main{
 min-height: 100vh;
 background-repeat: no-repeat;
 background-size: auto;
-overflow: hidden;
 background-attachment: fixed;
 background-position: right;
 
 }
 
-#intro-container {
+#upper-container{
+    background: white;
+    margin-top:5rem;
+    padding-bottom: 1px;
+    position:sticky;
+    padding-top: 20px;
+    top: 0PX;
+    text-align: center;
+
+
+
+}
+
+#main-container {
     background-color: rgba(121, 90, 56, 0.35);
     /* background-image: url(../../images/sexson-art-bg.png); */
     min-height: 100vh;
     
     
 }
+
 
 #sexsonart{
     display: block;
@@ -34,10 +47,28 @@ background-position: right;
 }
 
 @media  screen and (max-width: 500px) {
-    #intro-container {
+    #main-container {
         display: none;
     }
     #intro-container-small {
         display: block;
+        position: relative;
+        text-align: center;
+        z-index: -1;
     }
+    #introduction{
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        backdrop-filter: blur(10px); /* You can adjust the value to get the desired blur effect */
+        background-color: rgba(255, 255, 255, 0.0); /* Semi-transparent white background */
+        border-radius: 10px; /* Optional: to have rounded corners */
+        padding: 10px;
+        color: black; /* Adjust according to your need */
+        text-align: center;
+        width: 80%; /* Add a max-width if needed */
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Optional: to give a depth effect */
+    }
+    
 }

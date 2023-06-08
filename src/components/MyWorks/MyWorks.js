@@ -1,18 +1,21 @@
+
 import spic1 from '../../images/spic1.jpg';
 import spic2 from '../../images/spic2.jpg';
 import spic3 from '../../images/spic3.jpg';
 import spic5 from '../../images/spic5.jpg';
 
 export default function MyWorks() {
-
     return (
-        <div className='bg-light'>
-            <div id='container' className='pt-5'>
-                <h1 id='title' className=' text-center mt-5'>My Works</h1>
-            </div>
+        <main>
+            <div id='upper-container' className=''>
+                <h1 id='title' className='mt-3'>
+                    My Works
+                </h1>
+                
                 <hr></hr>
+            </div>
 
-            <div className=' row mt-sm-5 px-2'>
+            <div className='row mt-sm-5 px-2'>
                 <div className='d-flex col-sm my-4'>
                     <img src={spic1} alt='spic1' className='rounded mx-auto d-block align-self-center' style={{ width: "70%" }} />
                 </div>
@@ -31,6 +34,6 @@ export default function MyWorks() {
 
 
             </div>
-        </div>
+        </main>
     )
 }

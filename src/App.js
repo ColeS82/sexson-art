@@ -12,7 +12,6 @@ function App() {
     <Routes>
       <Navbar />
       <Home />
-
     </Routes>
       </BrowserRouter>
   );
